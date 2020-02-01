@@ -41,6 +41,7 @@ The Project is to compare and contrast existing Algorithms for CryptoCurrency tr
   * Preparing a MS Excel as an output for the above.
   * Analysing the effect of cost of BitCoin in USD on the performance on these algorithms.
   * Plotting profit chart of each algo against BitCoin-USD Exchange rate.
+  * The CSV file should have 6 columns (Coin Name, Purchase Time, Purchase Value, Sell Time, Sell Value, Profit/Loss)
 * Pump Detection
   * Reading up on the nature of Pump detection.
   * Evaluation of pump based on the volume and price of coins.
@@ -53,6 +54,8 @@ The Project is to compare and contrast existing Algorithms for CryptoCurrency tr
   * Builing a Convolutional Neural Net to analyze structure in the data.
   * Ensure that we make steady profits every day averaged over the week.
   * Contrast the performance of this model against rule based and ensure it's better.
+  * Attempt the Binance interface can be done through WebSockets to increase API limits.
+  * Keep a cache and not requery the Binance API.
 * User Interface End
   * There Should be a Telegram group with a ChatBot.
   * The ChatBot should send text of when to /buy and /sell.
