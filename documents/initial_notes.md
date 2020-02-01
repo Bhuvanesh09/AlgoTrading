@@ -38,7 +38,7 @@ We shall analyze the crossover in results of the above indicators with different
     eg. EMA-8 calculates exponentially moving averages for the past 8 records, EMA-20 over past 20 records.
 We can use this to improve on the rules. The primary bulk of our work shall go into the **analysis of combinations of these parameters**.
 
-Moving Average Convergence Divergence (MACD) is an example of a combination parameter (EMA-26 - EMA-12), which we can use as a starting point. (Note the key takeaways in the article here: https://www.investopedia.com/terms/m/macd.asp)
+<!-- Moving Average Convergence Divergence (MACD) is an example of a combination parameter (EMA-26 - EMA-12), which we can use as a starting point. (Note the key takeaways in the article here: https://www.investopedia.com/terms/m/macd.asp) -->
 
 ### Long Term Targets
 
