@@ -65,3 +65,5 @@ The Project is to compare and contrast existing Algorithms for CryptoCurrency tr
 Since there is no good way to measure the accuracy of these algorithms, we shall attempt our best to make small profits on the run, there is no objective committed scale of measure. There is also no scaling and Deployment speed contraint.
 
 # Use Case Diagrams
+
+![UML Design Diagram](../diagrams/usecase-diagram.png)
