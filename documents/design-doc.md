@@ -1,12 +1,30 @@
 ## Product Design
 
-Team 36: Bhuvanesh Sridharan, Animesh Sinha, Kesav Gadela, Sai Tarun Reddy
+| Field          | Value                                                                 |
+| -------------- | --------------------------------------------------------------------- |
+| Project number | 13                                                                    |
+| Project Title  | Algorithmic Trading                                                   |
+| Document       | Product Design Document                                               |
+| Creation date  | January 21, 2020                                                      |
+| Created By     | Animesh Sinha, Bhuvanesh Sridharan, Gadela Kesav, L. Sai Tharun Reddy |
+| Client         | Spinlogics                                                            |
 
 ## Design Overview
 
 ### Architectural design
 
-The Segment of our analysis and code are relatively separate and functionally independent. We shall develop the entire code on Python using the existing Rule based code and adding in Python and developing Neural Nets in PyTorch / Tensorflow.
++ The Segment of our analysis and code are relatively separate and functionally independent.
++  We shall develop the entire code on Python using the existing Rule based code.
++  Further adding in Python and developing Neural Nets in PyTorch / Tensorflow in R2.
+
+---
+
+####  The entire functionality of the system is broken down in the following sub-modules:
+  + Script using Binance to continuosly fetch data and send to the main program.
+  + Script using Ta-lib to calculate the parameters and make predictions using the predefined rules.
+  + Script to properly format the raw data and their predictions appropriately and export them to a file.
+  + Script containing code to visualise the above data and and quality of predictions and further using the Telegam API to send it to the end-user.
+
 
 ## System interfaces
 
@@ -39,8 +57,12 @@ There is no direct user interface, only a Telegram messaging bot which sends not
 ## Design Rationale
 
 The Project has been split into 3 ordered phases
+
 1. Rule Based Algorithms - Comparison
 2. Pump Detection by statiscal means
 3. Machine Learning Models (Convolution Nets)
 
 These 3 phases are ordered such because the results of one can feed features into the next stage of the pipeline.
+
++ Till now, no issues have arose in implementing this design and since the Client approves of this as well, we are continuing to exercise this plan.
+---
