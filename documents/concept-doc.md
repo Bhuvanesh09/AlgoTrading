@@ -30,3 +30,5 @@
 ## Usage Model and Diagrams (if any)
 
 The Script will be generating alerts for it's users on Telegram about any notable trend which it predicts by messaging them directly. Both the alert and preferrably the reasoning behind the alert (Graphs / Indicators that led to the program flagging the time) will be shared with the user. The script must also log all its past predictions and their accuracy in an XML/csv format for further analysis by the user.
+
+![UML Design Diagram](../diagrams/usecase-diagram.png)
